@@ -3,7 +3,7 @@
 A data-driven project that combines **Exploratory Data Analysis (EDA)**, **Geospatial Visualization**, and **Machine Learning** to analyze hotel booking behavior and predict cancellations.
 
 ---
-
+![Hotel-booking](hotel-booking/Screenshot_27.png)
 ## 🔍 Key Analysis & Exploratory Data Analysis (EDA)
 Using **Plotly**, **Seaborn**, and **Folium**, I investigated the following business questions:
 * **Guest Origins:** Where do most guests come from? (Visualized with `Folium` HeatMaps).
