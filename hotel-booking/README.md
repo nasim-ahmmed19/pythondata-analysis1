@@ -1,48 +1,47 @@
-# 🏨 Hotel Booking Data Analysis & Cancellation Prediction
+# 🏨 Hotel Booking Insights & Cancellation Prediction
 
-This repository contains a comprehensive data science project that involves **Exploratory Data Analysis (EDA)** and **Machine Learning** to understand booking patterns and predict cancellations for a hotel dataset.
-
----
-
-## 🔍 Exploratory Data Analysis (EDA)
-In this phase, I explored the data to answer several critical business questions:
-
-* **Guest Origins:** Identified the countries from which the majority of guests are coming.
-* **Room Pricing:** Analyzed the average daily rate (ADR) to see how much guests pay per night.
-* **Price Variation:** Visualized how the price per night fluctuates over the year due to seasonality.
-* **Busy Months:** Identified the most busy months for both city and resort hotels.
-* **Stay Duration:** Analyzed the average length of time people stay at the hotels.
+A data-driven project that combines **Exploratory Data Analysis (EDA)**, **Geospatial Visualization**, and **Machine Learning** to analyze hotel booking behavior and predict cancellations.
 
 ---
 
-## 🤖 Machine Learning Model
-To assist in revenue management, I built a predictive model to identify bookings that are likely to be canceled:
-
-* **Model Objective:** Binary classification to predict if a booking will be canceled or not.
-* **Data Preprocessing:** Performed data cleaning, handled missing values, and categorical encoding.
-* **Algorithm:** Used industry-standard classification algorithms (e.g., Logistic Regression/Random Forest).
-* **Evaluation:** Optimized the model based on Accuracy, Precision, and Recall scores.
+## 🔍 Key Analysis & Exploratory Data Analysis (EDA)
+Using **Plotly**, **Seaborn**, and **Folium**, I investigated the following business questions:
+* **Guest Origins:** Where do most guests come from? (Visualized with `Folium` HeatMaps).
+* **Pricing Trends:** How much do guests pay per night? (Analyzed via `ADR`).
+* **Seasonality:** How does the price vary per night over the year?
+* **Booking Patterns:** Which are the most busy months and how long do people stay?
+* **Missing Data:** Used `missingno` to identify and handle data gaps efficiently.
 
 ---
 
-## 🛠️ Tech Stack
-* **Language:** Python
-* **Data Analysis:** `Pandas`, `NumPy`
-* **Visualization:** `Matplotlib`, `Seaborn`
+## 🤖 Machine Learning Modeling
+I implemented a robust pipeline to predict booking cancellations using multiple algorithms:
+* **Algorithms Used:** `Logistic Regression`, `Decision Tree`, `Random Forest`, and `K-Nearest Neighbors (KNN)`.
+* **Preprocessing:** `StandardScaler` for feature scaling and `PolynomialFeatures` for capturing complex patterns.
+* **Optimization:** Used `GridSearchCV` for hyperparameter tuning and `Cross-Validation` for stable performance.
+* **Evaluation:** Detailed analysis using `Confusion Matrix`, `Classification Report`, and `Accuracy Score`.
+
+---
+
+## 🎮 Interactive Features
+* **Dynamic Analysis:** Integrated `ipywidgets` (interact/manual) to allow users to filter data and visualizations dynamically within the notebook.
+* **Database Management:** Used `SQLAlchemy` and `SQLite` to handle data through SQL queries, presented beautifully with `PrettyTable`.
+
+---
+
+## 🛠️ Tech Stack & Libraries
+* **Core:** `Pandas`, `NumPy`
+* **Visualization:** `Matplotlib`, `Seaborn`, `Plotly Express`, `Folium`
 * **Machine Learning:** `Scikit-Learn`
-* **Environment:** Jupyter Notebook
+* **Interactive Tools:** `ipywidgets`
+* **Database:** `SQLAlchemy`, `SQLite3`
 
 ---
 
 ## 📂 Project Structure
-* `📂 data/`: Contains the hotel booking dataset.
-* `📂 notebooks/`: Jupyter notebooks covering EDA and ML modeling steps.
-* `📂 images/`: Visualizations of guest origins, pricing trends, and model metrics.
-* `README.md`: Project documentation and summary.
+* `📂 data/`: Raw and processed hotel booking datasets.
+* `📂 notebooks/`: Jupyter notebooks for data cleaning, EDA, and ML model training.
+* `📂 images/`: Heatmaps, Star Schemas, and model evaluation charts.
+* `README.md`: Project documentation.
 
 ---
-
-## 🚀 How to Run
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/your-username/hotel-booking-analysis.git](https://github.com/your-username/hotel-booking-analysis.git)
