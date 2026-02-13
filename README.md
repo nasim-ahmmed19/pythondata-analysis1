@@ -25,4 +25,4 @@ To complement the analysis, I have implemented several ML models:
 ## 💻 Installation & Usage
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/nasim-ahmmed19/pythondata-analysis.git](https://github.com/nasim-ahmmed19/pythondata-analysis.git)
+   git clone [https://github.com/nasim-ahmmed19/pythondata-analysis1.git](https://github.com/nasim-ahmmed19/pythondata-analysis.git)
