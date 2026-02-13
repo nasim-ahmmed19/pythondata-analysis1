@@ -1,4 +1,4 @@
-# Data Analysis
+
 # 📊 Advanced Data Analysis & Visualization
 
 Welcome to my Data Analysis repository! This project showcases in-depth exploratory data analysis (EDA) and interactive visualizations using professional Python libraries and database management tools.
